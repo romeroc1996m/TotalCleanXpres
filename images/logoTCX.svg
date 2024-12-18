@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552.55 78.85">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1dad51;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #25abe2;
+      }
+
+      .cls-3 {
+        font-family: Roboto-Bold, Roboto;
+        font-size: 70px;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #2474b5;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+      }
+
+      .cls-5 {
+        letter-spacing: -.1em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-3" transform="translate(0 59.88)"><tspan class="cls-5" x="0" y="0">T</tspan><tspan class="cls-4" x="36.2" y="0">otal </tspan><tspan class="cls-2" x="172.95" y="0">Clean</tspan><tspan class="cls-6" x="351.88" y="0"> </tspan><tspan class="cls-1" x="369.31" y="0">Xpres</tspan></text>
+  </g>
+</svg>
