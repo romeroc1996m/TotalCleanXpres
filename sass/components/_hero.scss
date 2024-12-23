@@ -1,0 +1,55 @@
+#hero {
+    height: 775px;
+}
+
+#hero-img {
+    grid-column: 1/-1;
+    margin-top: 40px;
+}
+
+#hero-title {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+#hero-img2 {
+    grid-column: 1/-1;
+    margin-bottom: 50px;
+}
+
+#p-title {
+    grid-column: 1/-1;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+    #hero {
+        height: 1397px;
+    }
+    
+    #hero-img {
+        grid-column: 1/-1;
+    }
+    
+    #hero-title {
+        grid-column: 1/-1;
+        font-size: 23px;
+        
+    }
+    
+    #hero-img2 {
+        grid-column: 1/-1;
+    }
+    
+    #p-title {
+        grid-column: 1/-1;
+        font-size: 18px;
+    }
+}
