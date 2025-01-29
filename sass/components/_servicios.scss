@@ -1,15 +1,441 @@
 #servicios {
-    height: 1397px;
+    height: 2600px;
     background-image: url(../../images/BG-TCX-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #servicios-title {
-    grid-column: 1/-1;
     font-family: "Roboto Condensed", serif;
     font-size: 60px;
     color: #fff;
-    text-align: center;
     margin-top: 50px;
+    margin-left: 30px;
+    grid-row: 1;
+    grid-column: 1/-1;
+}
+
+#servicios1 {
+    height: 450px;
+    width: 313px;
+    border: #fff solid 3px;
+    grid-row: 1;
+    margin-top: 250px;  
+    grid-column: 1/-1;
+}
+
+.icon1 {
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-top: 40px;
+}
+
+.title-icon1 {
+    font-family: "Roboto Condensed", serif;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.p1-desc {
+    font-family: "Roboto Condensed", serif;
+    font-size: 25px;
+    color: #fff;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#servicios2 {
+    height: 450px;
+    width: 313px;
+    border: #fff solid 3px;
+    grid-row: 1;
+    grid-column: 1/-1;
+    margin-top: 800px;
+}
+
+.icon2 {
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.title-icon2 {
+    font-family: "Roboto Condensed", serif;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.p2-desc {
+    font-family: "Roboto Condensed", serif;
+    font-size: 25px;
+    color: #fff;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#servicios3 {
+    height: 450px;
+    width: 313px;
+    border: #fff solid 3px;
+    grid-row: 1;
+    grid-column: 1/-1;
+    margin-top: 1350px;
+}
+
+.icon3 {
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    margin-left: 75px;
+    margin-top: 30px;
+    grid-row: 2;
+}
+
+.title-icon3 {
+    font-family: "Roboto Condensed", serif;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.p3-desc {
+    font-family: "Roboto Condensed", serif;
+    font-size: 25px;
+    color: #fff;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#servicios4 {
+    height: 450px;
+    width: 313px;
+    border: #fff solid 3px;
+    grid-row: 1;
+    grid-column: 1/-1;
+    margin-top: 1900px;
+}
+
+.icon4 {
+    align-items: center;
+    width: 100px;
+    height: 120px;
+    margin-left: 75px;
+    margin-top: 30px;
+    grid-row: 2;
+}
+
+.title-icon4 {
+    font-family: "Roboto Condensed", serif;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.p4-desc {
+    font-family: "Roboto Condensed", serif;
+    font-size: 25px;
+    color: #fff;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width:768px) {
+
+    #servicios {
+        height: 2600px;
+        background-image: url(../../images/BG-TCX-768px.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #servicios-title {
+        font-size: 100px;
+        align-items: center;
+        grid-row: 1;
+        grid-column: 4/9;
+    }
+    
+    #servicios1 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        margin-top: 250px;  
+        grid-column: 3/6;
+    }
+    
+    .icon1 {
+        align-items: center;
+        width: 100px;
+        height: 120px;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-top: 40px;
+    }
+    
+    .title-icon1 {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .p1-desc {
+        font-size: 25px;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 17px;
+        margin-top: 30px;
+    }
+    
+    #servicios2 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        margin-top: 250px;  
+        grid-column: 8/11;
+    }
+    
+    .icon2 {
+        align-items: center;
+        width: 100px;
+        height: 120px;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    
+    .title-icon2 {
+        font-size: 30px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    
+    .p2-desc {
+        font-size: 25px;
+        margin-left: 40px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    
+    #servicios3 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        grid-column: 3/6;
+        margin-top: 750px;
+    }
+    
+    .icon3 {
+        width: 100px;
+        height: 120px;
+        margin-left: 105px;
+        margin-top: 30px;
+        grid-row: 2;
+    }
+    
+    .title-icon3 {
+        font-size: 30px;
+        margin-left: 30px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    
+    .p3-desc {
+        font-size: 25px;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    
+    #servicios4 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        grid-column: 8/11;
+        margin-top: 750px;
+    }
+    
+    .icon4 {
+        align-items: center;
+        width: 100px;
+        height: 120px;
+        margin-left: 105px;
+        margin-top: 30px;
+        grid-row: 2;
+    }
+    
+    .title-icon4 {
+        font-size: 30px;
+        margin-left: 75px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    
+    .p4-desc {
+        font-size: 25px;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    #servicios {
+        height: 1300px;
+        background-image: url(../../images/BG-TCX-1200px.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #servicios-title {
+        font-size: 100px;
+        align-items: center;
+        grid-row: 1;
+        grid-column: 4/9;
+    }
+    
+    #servicios1 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        margin-top: 250px;  
+        grid-column: 3/6;
+    }
+    
+    .icon1 {
+        align-items: center;
+        width: 100px;
+        height: 120px;
+        margin-left: 100px;
+        margin-top: 30px;
+        margin-top: 40px;
+    }
+    
+    .title-icon1 {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .p1-desc {
+        font-size: 25px;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 17px;
+        margin-top: 30px;
+    }
+    
+    #servicios2 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        margin-top: 250px;  
+        grid-column: 8/11;
+    }
+    
+    .icon2 {
+        align-items: center;
+        width: 100px;
+        height: 120px;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    
+    .title-icon2 {
+        font-size: 30px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    
+    .p2-desc {
+        font-size: 25px;
+        margin-left: 40px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    
+    #servicios3 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        grid-column: 3/6;
+        margin-top: 750px;
+    }
+    
+    .icon3 {
+        width: 100px;
+        height: 120px;
+        margin-left: 105px;
+        margin-top: 30px;
+        grid-row: 2;
+    }
+    
+    .title-icon3 {
+        font-size: 30px;
+        margin-left: 30px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    
+    .p3-desc {
+        font-size: 25px;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+    
+    #servicios4 {
+        height: 450px;
+        width: 313px;
+        grid-row: 1;
+        grid-column: 8/11;
+        margin-top: 750px;
+    }
+    
+    .icon4 {
+        align-items: center;
+        width: 100px;
+        height: 120px;
+        margin-left: 105px;
+        margin-top: 30px;
+        grid-row: 2;
+    }
+    
+    .title-icon4 {
+        font-size: 30px;
+        margin-left: 75px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    
+    .p4-desc {
+        font-size: 25px;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
 }
