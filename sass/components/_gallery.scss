@@ -1,0 +1,27 @@
+#gallery {
+    height: 1000px;   
+}
+
+#gallery-title {
+    grid-column: 1/-1;
+    display: flex;
+    font-family: "Roboto Condensed", serif;
+    font-size: 60px;
+    align-content:  center;
+    margin-top: 40px;
+}
+
+#gallery-title1 {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif;
+    font-size: 33px;
+}
+
+.container {
+    background-image: url(../../images/gallery1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1/-1;
+    width: 320px;
+    height: 320px;
+}
