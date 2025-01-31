@@ -8,11 +8,11 @@
 #servicios-title {
     font-family: "Roboto Condensed", serif;
     font-size: 60px;
+    text-align: center;
     color: #fff;
-    margin-top: 50px;
-    margin-left: 30px;
     grid-row: 1;
     grid-column: 1/-1;
+    margin-top: 50px;
 }
 
 #servicios1 {
@@ -21,33 +21,32 @@
     border: #fff solid 3px;
     grid-row: 1;
     margin-top: 250px;  
+    margin-left: 15px;
     grid-column: 1/-1;
 }
 
 .icon1 {
-    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
     width: 100px;
     height: 120px;
-    margin-left: 100px;
-    margin-top: 30px;
-    margin-top: 40px;
 }
 
 .title-icon1 {
     font-family: "Roboto Condensed", serif;
+    text-align: center;
     font-size: 30px;
     color: #fff;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .p1-desc {
     font-family: "Roboto Condensed", serif;
+    text-align: center;
     font-size: 25px;
     color: #fff;
-    justify-content: center;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 #servicios2 {
@@ -57,31 +56,31 @@
     grid-row: 1;
     grid-column: 1/-1;
     margin-top: 800px;
+    margin-left: 15px;
 }
 
 .icon2 {
-    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
     width: 100px;
     height: 120px;
-    margin-left: 75px;
-    margin-top: 30px;
 }
 
 .title-icon2 {
     font-family: "Roboto Condensed", serif;
+    text-align: center;
     font-size: 30px;
     color: #fff;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .p2-desc {
     font-family: "Roboto Condensed", serif;
+    text-align: center;
     font-size: 25px;
     color: #fff;
-    justify-content: center;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 #servicios3 {
@@ -91,34 +90,31 @@
     grid-row: 1;
     grid-column: 1/-1;
     margin-top: 1350px;
+    margin-left: 15px;
 }
 
 .icon3 {
-    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
     width: 100px;
     height: 120px;
-    margin-left: 75px;
-    margin-top: 30px;
     grid-row: 2;
 }
 
 .title-icon3 {
     font-family: "Roboto Condensed", serif;
+    text-align: center;
     font-size: 30px;
     color: #fff;
-    margin-left: 30px;
-    margin-right: 10px;
-    margin-top: 30px;
 }
 
 .p3-desc {
     font-family: "Roboto Condensed", serif;
+    text-align: center;
     font-size: 25px;
     color: #fff;
-    justify-content: center;
-    margin-left: 30px;
-    margin-right: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 #servicios4 {
@@ -128,34 +124,32 @@
     grid-row: 1;
     grid-column: 1/-1;
     margin-top: 1900px;
+    margin-left: 15px;
 }
 
 .icon4 {
-    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
     width: 100px;
     height: 120px;
-    margin-left: 75px;
-    margin-top: 30px;
     grid-row: 2;
 }
 
 .title-icon4 {
     font-family: "Roboto Condensed", serif;
     font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
     color: #fff;
-    margin-left: 30px;
-    margin-right: 10px;
-    margin-top: 30px;
 }
 
 .p4-desc {
     font-family: "Roboto Condensed", serif;
     font-size: 25px;
+    text-align: center;
     color: #fff;
-    justify-content: center;
-    margin-left: 30px;
-    margin-right: 20px;
     margin-top: 30px;
+    padding: 20px;
 }
 
 @media screen and (min-width:768px) {
