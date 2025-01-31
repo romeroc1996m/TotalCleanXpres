@@ -1,5 +1,5 @@
 #gallery {
-    height: 2700px;   
+    height: 2900px;   
 }
 
 #gallery-title {
@@ -127,6 +127,210 @@
 
 @media screen and (min-width:768px) {
 
-
+    #gallery {
+        height: 1500px;   
+    }
     
+    #gallery-title {
+        grid-column: 1/-1;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    #gallery-title1 {
+        grid-column: 1/-1;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .container {
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .text1 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container2 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 7/-1;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .text2 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container3 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .text3 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container4 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 7/-1;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .text4 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container5 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 1/5;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .text5 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container6 {
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column: 7/-1;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .text6 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    #gallery {
+        height: 1500px;   
+    }
+    
+    #gallery-title {
+        grid-column: 1/-1;
+        font-size: 70px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    #gallery-title1 {
+        grid-column: 1/-1;
+        text-align: center;
+        font-size: 45px;
+    }
+    
+    .container {
+        grid-column: 2/5;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .text1 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container2 {
+        grid-column: 8/-1;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .text2 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container3 {
+        grid-column: 2/5;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .text3 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container4 {
+        grid-column: 8/-1;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .text4 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container5 {
+        grid-column: 2/5;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .text5 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+    
+    .container6 {
+        grid-column: 8/-1;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .text6 {
+        text-align: center;
+        font-size: 35px;
+        background-color: #adadad;
+        color: #fff;
+    }
+
 }
