@@ -1,0 +1,160 @@
+#contacto {
+    height: 1500px;
+    background-color: #1875B6;
+}
+
+#title-contacto {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.ciudad {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif; 
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+#map {
+    grid-column: 1/-1;
+    width: 345px;
+}
+
+.contacto1 {
+    grid-column: 1/-1;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.ciudad2 {
+    grid-column: 1/-1;
+    font-family: "Roboto Condensed", serif; 
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+#map2 {
+    grid-column: 1/-1;
+    width: 345px;
+}
+
+.contacto2 {
+    grid-column: 1/-1;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (min-width:768px) {
+
+    #contacto {
+        height: 1700px;
+        background-color: #1875B6;
+    }
+    
+    #title-contacto {
+        grid-column: 4/10;
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    
+    .ciudad {
+        grid-column: 1/-1; 
+        font-size: 40px;
+    }
+    
+    #map {
+        grid-column: 3/10;
+        width: 480px;
+    }
+    
+    .contacto1 {
+        grid-column: 1/-1;
+        font-size: 20px;
+    }
+    
+    .ciudad2 {
+        grid-column: 1/-1; 
+        font-size: 40px;
+    }
+    
+    #map2 {
+        grid-column: 3/10;
+        width: 480px;
+    }
+    
+    .contacto2 {
+        grid-column: 1/-1;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    #contacto {
+        height: 850px;
+        background-color: #1875B6;
+    }
+    
+    #title-contacto {
+        grid-column: 4/10;
+        font-size: 55px;
+        margin-top: 30px;
+        grid-row: 1;
+    }
+    
+    .ciudad {
+        grid-column: 4/5; 
+        font-size: 35px;
+        grid-row: 1;
+        margin-top: 120px;
+    }
+    
+    #map {
+        grid-column: 2/5;
+        width: 480px;
+        grid-row: 1;
+        margin-top: 210px;
+    }
+    
+    .contacto1 {
+        grid-column: 3/6;
+        font-size: 20px;
+        text-align: center;
+        grid-row: 1;
+        margin-top: 700px;
+    }
+    
+    .ciudad2 {
+        grid-column: 8/10; 
+        font-size: 35px;
+        grid-row: 1;
+        margin-top: 120px;
+        margin-left: 60px;
+    }
+    
+    #map2 {
+        grid-column: 7/12;
+        width: 480px;
+        grid-row: 1;
+        margin-top: 210px;
+    }
+    
+    .contacto2 {
+        grid-column: 6/-1;
+        font-size: 20px;
+        grid-row: 1;
+        margin-top: 700px;
+    }
+
+}
